@@ -1,0 +1,22 @@
+insert into PUBLISHER (name)
+values
+('Bookland'),
+('Kniznik'),
+('Knigarhya'),
+('Aversev'),
+('ABO'),
+('BelDruk'),
+('Drukarnya'),
+('TopKnigi'),
+('LiteRay'),
+('Pro100Knigi'),
+('BeriIChitai'),
+('Vseznaika'),
+('MirKnig'),
+('GoraSamocvetov'),
+('Bookenist'),
+('Knigoman'),
+('Chtets'),
+('Francisk_Skaryna'),
+('PROsvetlenie'),
+('SkarbVedau');

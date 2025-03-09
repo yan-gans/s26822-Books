@@ -1,0 +1,22 @@
+insert into BOOK (price,title,publisher_id)
+values
+(17.4,'IT',1),
+(34.2,'Alye Parusa',13),
+(32,'Mumu',3),
+(189.4,'Objective Proficiency',15),
+(56.4,'Business Partner',4),
+(17.4,'Duimovochka',12),
+(32.45,'Shine',6),
+(18.2,'Armagedon',18),
+(1.4,'Tolstyi i tonkii',19),
+(173,'Goluboe i zelenoe',20),
+(16.8,'Otrochesvo',2),
+(124,'Shorohi',16),
+(190.32,'Zolushka',17),
+(87.4,'Phrasal verbs C2',11),
+(174.5,'Sorry for you loss',9),
+(134.2,'HELL',5),
+(122.9,'Temnaya Bashnya',7),
+(88.3,'Pets cemetery',8),
+(17.4,'Love or the lack thereof',10),
+(52.7,'The worlds a little blurry',14);

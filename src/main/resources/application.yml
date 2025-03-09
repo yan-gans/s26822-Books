@@ -1,0 +1,22 @@
+spring:
+  sql:
+    init:
+      data-locations: classpath:sql-data/author.sql,classpath:sql-data/publisher.sql,classpath:sql-data/book.sql, classpath:sql-data/book_authors.sql
+      mode: always
+  application:
+    name: S26822BooksApplication
+  h2:
+    console:
+      path: /my-h2-console
+      enabled: true
+  datasource:
+    url: jdbc:h2:mem:books;
+    username: tpo
+    password: tposhechka
+  jpa:
+    defer-datasource-initialization: true
+    show-sql: true
+    hibernate:
+      ddl-auto: update
+      naming:
+        physical-strategy: org.hibernate.boot.model.naming.PhysicalNamingStrategyStandardImpl
